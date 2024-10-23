@@ -1,0 +1,6 @@
+FLASK_APP=API_TESTE.py
+FLASK_DEBUG=True
+FLASK_RUN_PORT=your_port_running
+FLASK_RUN_HOST="your_ip_running"
+MYSQL_SECRET="your_password"
+MYSQL_DATABASE_NAME="name_of-your_database"
