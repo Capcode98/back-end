@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import io
 import matplotlib
+
 matplotlib.use('Agg')
 
 def plotar_grafico(Arquivo_csv, pizza=True):
