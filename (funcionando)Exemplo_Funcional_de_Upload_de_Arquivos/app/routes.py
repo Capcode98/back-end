@@ -1,7 +1,8 @@
-from app.__init__ import app
 from flask import render_template, request, redirect, url_for, Response
 from werkzeug.utils import secure_filename
 import os
+# puxo as alterações feitas na instacia do app no arquivo utils.py
+from app.utils import app
 
 
 #==ROTAS================================================================================================================================
@@ -84,10 +85,11 @@ def plot_png():
 
     # Define o tipo de gráfico baseado no parâmetro 'tipo' (padrão: pizza)
     tipo_grafico = request.args.get('tipo', 'pizza')  # 'pizza' ou 'barra'
-    pizza = tipo_grafico == 'pizza'
+    # Verifica se o valor "pizza" esta contido no parametro "tipo_grafico" se sim a variavel "pizza" recebe o valor "True"
+    pizza = tipo_grafico == "pizza"
 
     # Chama a função plotar_grafico para gerar o gráfico
-    from app.utils import plotar_grafico
+    from app.analisar_csv import plotar_grafico
     img = plotar_grafico(caminho_arquivo_csv, pizza=pizza)
 
     # Retorna a imagem como resposta HTTP

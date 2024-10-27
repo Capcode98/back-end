@@ -23,3 +23,6 @@ def arquivos_permitidos(NOME_DO_ARQUIVO):
         NOME_DO_ARQUIVO.rsplit('.', 1)[1].lower() in EXTENCOES_PERMITIDAS:
         return True
 
+def retorna_app_config_folder():
+    return app.config['UPLOAD_FOLDER']
+
