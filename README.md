@@ -1,22 +1,18 @@
 # PROJETO BACK-END
 ## DESCRIÇÃO DO PROJETO
-    Este projeto foi proposto para a Disciplina PROJETO DE DESENVOLVIMENTO WEB BACK END - 5º/6° Período.
+- #### Este projeto foi proposto para a Disciplina PROJETO DE DESENVOLVIMENTO WEB BACK END - 5º/6° Período.
 ### PROJETO DE ANALISE DE DADOS ESTUDANTIS
-    Esse projeto foi e está sendo desenvolvido pelos alunos do grupo 2 de Ciências da Computação da UNIFESO.
+- #### Esse projeto foi e está sendo desenvolvido pelos alunos do grupo 2 de Ciências da Computação da UNIFESO.
 
-    PO: Lucas
+    #### EQUIPE 2
 
-    ScrumMaster:
-
-    Dev-Back_end1: João Luis Berute
-
-    Dev-Back_end2:
-
-    Dev-Front_end1:
-
-    Dev-Front_end2:
-
-    QA:
+    - ##### PO: *Lucas*
+    - ##### ScrumMaster:
+    - ##### Dev-Back_end: *João Luis Berute*
+    - ##### Dev-Front_end1:
+    - ##### Dev-Front_end2:
+    - ##### Dev-:
+    - ##### QA:
 
 #
 # TECNOLOGIAS UTILIZADAS
@@ -35,19 +31,18 @@
     - ## MySQL 
         O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation, com mais de 10 milhões de instalações pelo mundo.
 #
-dsfdsf
 
 ### Funcionalidades
 - Criação de usuários
 - Leitura de usuários
 - Atualização de usuários
 - Exclusão de usuários
-MUDAR ESSA PARTE E ADICIONAR AS COISAS A MAIS QUE O SISTEMA FAZ
-### Requisitos
-    - fdsdfsd
+
+### Requisitos 
+fdsdfsd
 
 fsdf
 ### Instalação
-Para instalar as dependências, execute o comando abaixo:
-CLONAR O REPOSITORIO
-pip install -r requirements.txt (VER SE ESSA LINHA ESTA CORRETA)
+    Para instalar as dependências, execute o comando abaixo:
+    CLONAR O REPOSITORIO
+    pip install -r requirements.txt (VER SE ESSA LINHA ESTA CORRETA)
