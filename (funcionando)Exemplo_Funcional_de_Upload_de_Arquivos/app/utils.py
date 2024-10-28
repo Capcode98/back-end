@@ -6,8 +6,6 @@ from app import app
 EXTENCOES_PERMITIDAS = {'csv'}#'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif', 'csv', 'xlsx', 'json'}
 PASTA_DE_UPLOAD = './app/data'
 TAMANHO_MAX_PERMITIDO = 16 * 1000 * 1000
-#mostrar_grafico = True
-
 
 app.config['UPLOAD_FOLDER'] = PASTA_DE_UPLOAD
 app.config['MAX_CONTENT_LENGTH'] = TAMANHO_MAX_PERMITIDO
@@ -22,7 +20,3 @@ def arquivos_permitidos(NOME_DO_ARQUIVO):
     if '.' in NOME_DO_ARQUIVO and \
         NOME_DO_ARQUIVO.rsplit('.', 1)[1].lower() in EXTENCOES_PERMITIDAS:
         return True
-
-def retorna_app_config_folder():
-    return app.config['UPLOAD_FOLDER']
-
