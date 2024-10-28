@@ -6,13 +6,13 @@
 
     #### EQUIPE 2
 
-    - ##### PO: *Lucas*
-    - ##### ScrumMaster:
-    - ##### Dev-Back_end: *João Luis Berute*
-    - ##### Dev-Front_end1:
-    - ##### Dev-Front_end2:
-    - ##### Dev-:
-    - ##### QA:
+    - ##### PO: *[Lucas](https://www.Linkedin.com)*
+    - ##### ScrumMaster:*[](https://www.Linkedin.com)*
+    - ##### Dev-Back_end: *[João Luis Berute](https://www.linkedin.com/in/joao-luis-berute-ribeiro/)*
+    - ##### Dev-Front_end1:*[](https://www.Linkedin.com)*
+    - ##### Dev-Front_end2:*[](https://www.Linkedin.com)*
+    - ##### Dev-:*[](https://www.Linkedin.com)*
+    - ##### QA:*[](https://www.Linkedin.com)*
 
 #
 # TECNOLOGIAS UTILIZADAS
@@ -38,11 +38,52 @@
 - Atualização de usuários
 - Exclusão de usuários
 
-### Requisitos 
-fdsdfsd
+### Requisitos Básicos
+- [python 3.12.2](https://www.python.org/downloads/)
+- [mysql](https://www.mysql.com/downloads/)
+- [git](https://git-scm.com/downloads)
 
-fsdf
 ### Instalação
-    Para instalar as dependências, execute o comando abaixo:
-    CLONAR O REPOSITORIO
-    pip install -r requirements.txt (VER SE ESSA LINHA ESTA CORRETA)
+#### Passo 1 - Clone o repositorio 
+- Abra o terminal do windows e escreva na barra de pesquisa o seguinte comando:
+
+        CMD 
+    ou 
+
+        Prompt de Comando
+
+- Vá para a pasta aonde você pretende fazer o download deste repositório com o seguinte comando:
+
+        cd "Nome_da_pasta"
+
+- Clone o projeto com o seguinte comando:
+
+        git clone https://github.com/Capcode98/back-end.git
+    
+- Crie um ambiente virtual Python com o seguinte comando:
+
+        py -m venv .venv
+
+- Ative o seu ambiente virtual com o seguinte comando:
+
+        ./.venv/Scripts/Activate
+
+- Instale as dependências necessarias do projeto, com o seguinte comando:
+
+        pip install -r requirements.txt 
+
+- Vá para dentro do projeto com o seguinte comando:
+
+        cd (funcionando)Exemplo_Funcional_de_Upload_de_Arquivos
+
+- Modifique o arquivo .flaskenv(Model) e o renomeie para .flaskenv com o seguinte comando:
+
+        mv .flaskenv(Model) .flaskenv
+
+- Abra o aquivo .flaskenv com seu editor de código e modifique a variavel de ambiente FLASK_RUN_PORT assocoando a ela algum valor inteiro:
+
+        FLASK_RUN_PORT = 1234 (Exemplo)
+
+- Rode o projeto com o seguinte comando:
+
+        py -m flask run
