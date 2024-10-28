@@ -4,3 +4,4 @@ venv/
 
 # Ignore the Flask environment file
 .flaskenv
+.flaskenv(Model)
