@@ -3,6 +3,7 @@ from werkzeug.utils import secure_filename
 import os
 # puxo as alterações feitas na instacia do app no arquivo utils.py
 from app.utils import app
+from auth import jwt
 
 
 #==ROTAS================================================================================================================================
