@@ -6,13 +6,12 @@
 
     #### EQUIPE 2
 
-    - ##### PO: *[Lucas](https://www.Linkedin.com)*
-    - ##### ScrumMaster:*[](https://www.Linkedin.com)*
+    - ##### PO: *[Lucas Rodrigues Lourenço](https://www.linkedin.com/in/lucas-rodrigues-44a707282/)*
+    - ##### ScrumMaster: *[Lucas do Canto de Carvalho](https://www.linkedin.com/in/lucas-do-canto-de-carvalho-7bb2a4279/)*
     - ##### Dev-Back_end: *[João Luis Berute](https://www.linkedin.com/in/joao-luis-berute-ribeiro/)*
-    - ##### Dev-Front_end1:*[](https://www.Linkedin.com)*
-    - ##### Dev-Front_end2:*[](https://www.Linkedin.com)*
-    - ##### Dev-:*[](https://www.Linkedin.com)*
-    - ##### QA:*[](https://www.Linkedin.com)*
+    - ##### Dev-Front_end1: *[Marcos Vinicius da costa silva](https://www.linkedin.com/in/marcos-vinicius-costa-silva-853ab2285/)*
+    - ##### Dev-Front_end2: *[Pedro Henrique SantAna de Souza](https://www.linkedin.com/in/pedro-henrique-453b9b26a/)*
+    - ##### QA: *[Diego Moreira da Silva](https://www.linkedin.com/in/diego-moreira-387a5b335/)*
 
 #
 # TECNOLOGIAS UTILIZADAS
