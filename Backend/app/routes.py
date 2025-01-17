@@ -8,21 +8,29 @@ import requests
 
 
 #==ROTAS================================================================================================================================
-@app.route('/', methods=['GET'])
+@app.route('/', methods=['POST'])
 def init():
-    
-    empresa="520979"
-    codigo="197667"
-    chave="76309a63a02de7fe581f"
-    saida="html"
-    ativo="1"
+
+    incoming_data = request.get_json()
+
     url = "https://ws1.soc.com.br/WebSoc/exportadados"
-
-    querystring = {"parametro":'{"empresa":'+empresa+',"codigo":'+codigo+',"chave":'+chave+',"saida":'+saida+',"ativo":'+ativo+'}'}
-
-    response = requests.post(url, params=querystring)
     
-    return response.text
+    payload = {
+        'parametro': '{"empresa": ' + incoming_data.get('empresa') + ',"codigo": ' + incoming_data.get('codigo') + ',"chave": '+ incoming_data.get('chave') + ',"saida": ' + incoming_data.get('saida') + ',"ativo":' + incoming_data.get('ativo') +' }'
+        }
+    
+    try:
+        # Fazendo a requisição POST para o serviço externo
+        response = requests.post(url, params=payload)
+
+        # Retornando a resposta do serviço externo para o cliente que chamou o endpoint
+        return jsonify(
+            response.text  
+        ), response.status_code
+    
+    except requests.exceptions.RequestException as e:
+        # Tratamento de erros de conexão ou timeout
+        return jsonify({'error': str(e)}), 500
 
 
 # Endpoint que faz a requisição POST para outro serviço
